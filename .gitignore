@@ -1,0 +1,40 @@
+# --- CMake / Visual Studio (папка) ---
+build/
+out/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+CMakeUserPresets.json
+CTestTestfile.cmake
+Testing/
+compile_commands.json
+
+# --- Visual Studio ---
+.vs/
+*.user
+*.suo
+*.sdf
+*.VC.db
+*.VC.opendb
+ipch/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# --- артефакты сборки ---
+*.obj
+*.o
+*.a
+*.lib
+*.pdb
+*.ilk
+*.exe
+*.log
+
+# --- IDE / OS ---
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
